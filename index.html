@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ajonda.css">
+</head>
+<body>
+    
+    
+  <div class="continair">
+   
+     <div class="inputs">
+         <h2>Add waht do you want</h2>
+         <div class="donner">
+            
+             <input type="text" id="ipt" placeholder="But tasks">
+             <button id="btn"><samp><img src="img/login.png" alt=""></samp></button>
+         </div>
+
+     </div>
+     <div class="box">
+         <h2>Tasks</h2>
+         <input type="texte" onkeyup=" serchTask(this.value)" id="ipt-serch" placeholder="Find tasks">
+         <button id="search" onclick="searchData(this.id)"><samp><img src="img/search.png" alt=""></samp></button>
+         <div  id="list">
+             
+         </div>
+        
+     </div>
+     <div id="dltBtn">
+        
+        
+    </div>
+       
+
+ </div>
+
+    <script src="ajonda.js"></script>
+</body>
+</html>
